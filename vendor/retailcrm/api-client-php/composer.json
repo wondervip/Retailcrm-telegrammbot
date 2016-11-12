@@ -1,0 +1,33 @@
+{
+    "name": "retailcrm/api-client-php",
+    "description": "PHP client for retailCRM API",
+    "type": "library",
+    "keywords": ["API", "retailCRM", "REST"],
+    "homepage": "http://www.retailcrm.pro/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "retailCRM",
+            "email": "support@retailcrm.pro"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*"
+    },
+    "support": {
+        "email": "support@retailcrm.pro"
+    },
+    "autoload": {
+        "psr-0": { "RetailCrm\\": "lib/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0.x-dev"
+        }
+    },
+    "config": {
+        "bin-dir": "bin",
+        "process-timeout": 600
+    }
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "retailcrm/api-client-php",
+        "version": "4.0.0",
+        "version_normalized": "4.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/retailcrm/api-client-php.git",
+            "reference": "49f253c228407774a9935383f9abafb1e715b745"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/retailcrm/api-client-php/zipball/49f253c228407774a9935383f9abafb1e715b745",
+            "reference": "49f253c228407774a9935383f9abafb1e715b745",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2016-07-21 22:37:53",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "RetailCrm\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "retailCRM",
+                "email": "support@retailcrm.pro"
+            }
+        ],
+        "description": "PHP client for retailCRM API",
+        "homepage": "http://www.retailcrm.pro/",
+        "keywords": [
+            "api",
+            "rest",
+            "retailCRM"
+        ]
+    }
+]
